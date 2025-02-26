@@ -162,8 +162,31 @@ border-radius: 10%;
    color:red;
    text-shadow: 0 0 25px rgb(152, 90, 13);
   }
+  .project-c{
+   display: flex;
+   gap: 20px;
+   padding: 20px;
+   background: white;
+  border-radius: 8px;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project-Item {
+background: white;
+padding: 20px;
+ border-radius: 8px;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ width: 250px;
+ text-align: center;
   
-  
+}
+.img {
+   width: 150px;
+   height: 150px;
+   object-fit: cover;
+   border-radius: 50%;
+} 
+ 
   .contact-head{
    max-width: 600px;
    padding: 30px;
@@ -193,21 +216,4 @@ input{
 .button-btn:hover{
    background-color: pink;
 }
-
-  
-
-
-  
-  
-   
  
-   
-  
-
-
-
-
-
-
-
-
