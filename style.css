@@ -186,34 +186,36 @@ padding: 20px;
    object-fit: cover;
    border-radius: 50%;
 } 
- 
   .contact-head{
-   max-width: 600px;
-   padding: 30px;
-   margin: 40px auto;
-   box-shadow: 0 0 10px rgb(0,0,0,0.1);
-  }
-.contact-bin{
-   margin-bottom:20px
+ background: white;
+ padding: 20px;
+ border-radius: 8px;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ width: 300px;
+text-align: center;
+       
 }
-label{
-   display: block;
-   font-weight: bold;
-   margin-bottom: 10px
+input, textarea {
+ width: 100%;
+padding: 10px;
+ margin: 10px 0;
+ border: 1px solid #ccc;
+border-radius: 4px;
+       
 }
-input{
-   width: 100px;
-   border: 1px solid black;
+ button {
+ background: #007BFF;
+ color: white;
+ border: none;
+ padding: 10px;
+cursor: pointer;
+ width: 100%;
+border-radius: 4px;
+       
+}
+ button:hover {
+ background: #0056b3;
+       
+}
+            
    
-}
-.button-btn{
-   background-color: #007bff;
-   border: none;
-   padding: 12px 20px;
-   cursor: pointer;
-   font-size: 16px;
-}
-.button-btn:hover{
-   background-color: pink;
-}
- 
